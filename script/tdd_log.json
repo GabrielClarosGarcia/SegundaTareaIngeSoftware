@@ -94,9 +94,47 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e359bd8dba33337ae1a6ef5ce1c11f31330e1020",
     "commitName": "feat: saludar por genero",
     "commitTimestamp": 1771482715294,
     "testId": 5
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 2,
+    "numTotalTests": 11,
+    "timestamp": 1771482804625,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 2,
+    "numTotalTests": 11,
+    "timestamp": 1771482866251,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1771482954669,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1771483147332,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludar por edad",
+    "commitTimestamp": 1771483303540,
+    "testId": 6
   }
 ]

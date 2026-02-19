@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e359bd8dba33337ae1a6ef5ce1c11f31330e1020",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-02-19T06:31:55.000Z",
       "message": "feat: saludar por genero",
-      "url": "https://github.com/GabrielClarosGarcia/SegundaTareaIngeSoftware/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/SegundaTareaIngeSoftware/commit/e359bd8dba33337ae1a6ef5ce1c11f31330e1020"
     },
     "stats": {
       "total": 56,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-02-19T06:41:43.000Z",
+      "message": "feat: saludar por edad",
+      "url": "https://github.com/GabrielClarosGarcia/SegundaTareaIngeSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 86,
+      "additions": 76,
+      "deletions": 10,
+      "date": "2026-02-19"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

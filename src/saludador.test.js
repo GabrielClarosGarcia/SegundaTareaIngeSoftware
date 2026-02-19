@@ -24,15 +24,28 @@ describe("Saludar segun la hora", () => {
   });
 });
 describe("Saludar por genero", () => {
-  it("deberia saludar como Sr. si es masculino", () => {
-    expect(saludar("Gabriel", 9, "masculino"))
+  it("deberia saludar como Sr. si es masculino y mayor de 30", () => {
+    expect(saludar("Gabriel", 9, "masculino", 35))
       .toEqual("Buenos días Sr. Gabriel");
   });
 
-  it("deberia saludar como Sra. si es femenino", () => {
-    expect(saludar("Maria", 15, "femenino"))
+  it("deberia saludar como Sra. si es femenino y mayor de 30", () => {
+    expect(saludar("Maria", 15, "femenino", 40))
       .toEqual("Buenas tardes Sra. Maria");
   });
 });
+
+describe("Saludar por edad", () => {
+  it("deberia usar Sr. si es mayor de 30 y masculino", () => {
+    expect(saludar("Gabriel", 9, "masculino", 35))
+      .toEqual("Buenos días Sr. Gabriel");
+  });
+
+  it("no deberia usar titulo si es menor o igual a 30", () => {
+    expect(saludar("Pedro", 9, "masculino", 25))
+      .toEqual("Buenos días Pedro");
+  });
+});
+
 
 
