@@ -23,4 +23,16 @@ describe("Saludar segun la hora", () => {
     expect(saludar("Gabriel", 21)).toEqual("Buenas noches Gabriel");
   });
 });
+describe("Saludar por genero", () => {
+  it("deberia saludar como Sr. si es masculino", () => {
+    expect(saludar("Gabriel", 9, "masculino"))
+      .toEqual("Buenos días Sr. Gabriel");
+  });
+
+  it("deberia saludar como Sra. si es femenino", () => {
+    expect(saludar("Maria", 15, "femenino"))
+      .toEqual("Buenas tardes Sra. Maria");
+  });
+});
+
 

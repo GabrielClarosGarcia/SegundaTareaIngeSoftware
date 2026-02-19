@@ -80,9 +80,23 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "28cc8082cb7a0fb6d069e96e4fb272e6527b9ad7",
     "commitName": "feat: saludar segun la hora",
     "commitTimestamp": 1771482186474,
     "testId": 4
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1771482379755,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludar por genero",
+    "commitTimestamp": 1771482715294,
+    "testId": 5
   }
 ]

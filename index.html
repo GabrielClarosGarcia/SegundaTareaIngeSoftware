@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Saludador</title>
   </head>
   <body>
     <h1>Saludador</h1>
 
-   <label>Nombre:</label>
-    <input type="text" id="nombre-input" />
+    <label>Nombre:</label>
+    <input type="text" id="nombre-input">
+
+    <br><br>
+
+    <label>Genero:</label>
+    <select id="genero-select">
+      <option value="">Seleccionar</option>
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+    </select>
+
+    <br><br>
 
     <button type="button" id="saludar-button">Saludar</button>
 
     <div id="resultado-div"></div>
 
     <script type="module" src="src/presenterSaludador.js"></script>
-</body>
-
+  </body>
 </html>

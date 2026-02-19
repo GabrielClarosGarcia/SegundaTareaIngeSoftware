@@ -1,4 +1,4 @@
-function saludar(nombre, hora) {
+function saludar(nombre, hora, genero) {
   let saludo = "Hola";
 
   if (hora !== undefined) {
@@ -11,8 +11,16 @@ function saludar(nombre, hora) {
     }
   }
 
+  let titulo = "";
+
+  if (genero === "masculino") {
+    titulo = "Sr. ";
+  } else if (genero === "femenino") {
+    titulo = "Sra. ";
+  }
+
   if (nombre) {
-    return saludo + " " + nombre;
+    return saludo + " " + titulo + nombre;
   }
 
   return saludo;
