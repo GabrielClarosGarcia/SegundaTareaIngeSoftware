@@ -6,5 +6,9 @@ const nombreInput = document.querySelector("#nombre-input");
 
 button.addEventListener("click", () => {
   const nombre = nombreInput.value;
-  div.innerHTML = "<p>" + saludar(nombre) + "</p>";
+
+  const fechaActual = new Date();
+  const horaActual = fechaActual.getHours();
+
+  div.innerHTML = "<p>" + saludar(nombre, horaActual) + "</p>";
 });
