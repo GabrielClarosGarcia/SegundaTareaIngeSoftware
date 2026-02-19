@@ -6,9 +6,47 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9d8e832e2a2da1eeb995881fbb334416a059c7eb",
     "commitName": "tarea arreglo",
     "commitTimestamp": 1770877705542,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1771476184728,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1771476250273,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1771476299030,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1771476407649,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar boton saludar",
+    "commitTimestamp": 1771481615920,
+    "testId": 2
   }
 ]
