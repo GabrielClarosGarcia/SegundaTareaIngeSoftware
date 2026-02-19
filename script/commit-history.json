@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8b3df2396090822e107f9932d8f03f02ecdddfbe",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-02-19T06:13:34.000Z",
       "message": "feat: agregar boton saludar",
-      "url": "https://github.com/GabrielClarosGarcia/SegundaTareaIngeSoftware/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/SegundaTareaIngeSoftware/commit/8b3df2396090822e107f9932d8f03f02ecdddfbe"
     },
     "stats": {
       "total": 72,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-02-19T06:20:07.000Z",
+      "message": "feat: saludar por nombre",
+      "url": "https://github.com/GabrielClarosGarcia/SegundaTareaIngeSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 34,
+      "deletions": 3,
+      "date": "2026-02-19"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -5,3 +5,9 @@ describe("Saludador", () => {
     expect(saludar()).toEqual("Hola");
   });
 });
+describe("Saludar por nombre", () => {
+  it("deberia saludar con hola y el nombre", () => {
+    expect(saludar("Gabriel")).toEqual("Hola Gabriel");
+  });
+});
+

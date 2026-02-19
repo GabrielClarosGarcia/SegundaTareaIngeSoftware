@@ -44,9 +44,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8b3df2396090822e107f9932d8f03f02ecdddfbe",
     "commitName": "feat: agregar boton saludar",
     "commitTimestamp": 1771481615920,
     "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1771481755623,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1771481843133,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludar por nombre",
+    "commitTimestamp": 1771482007504,
+    "testId": 3
   }
 ]
